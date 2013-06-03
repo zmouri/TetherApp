@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+
+    <CheckBox
+        android:id="@+id/enable_hotspot"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:text="@string/enable_hotspot"
+        android:onClick="onToggleHotspot"
+        android:textColor="#FFFFFF" />
+    
+    <EditText
+        android:id="@+id/setup_ssid_name"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:hint="@string/ssid_name"
+        android:textColor="#FFFFFF" />
+    
+    <Spinner
+        android:id="@+id/setup_ssid_authtype"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/setup_ssid_password"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:hint="@string/ssid_password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

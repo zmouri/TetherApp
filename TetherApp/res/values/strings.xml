@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TetherApp</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">I Hate Verizon</string>
+    <string name="enable_hotspot">Enable hotspot</string>
+    <string name="ssid_name">SSID name</string>
+    <string name="ssid_password">SSID password</string>
+    <string name="wpa2_psk">WPA2 PSK</string>
+    <string name="enabling_hotspot">Enabling hotspot</string>
+    <string name="disabling_hotspot">Disabling hotspot</string>
+    <string name="reflection_error">Error, the API got changed :( %s</string>
+
+</resources>

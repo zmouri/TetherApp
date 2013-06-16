@@ -10,5 +10,6 @@
     <string name="enabling_hotspot">Enabling hotspot</string>
     <string name="disabling_hotspot">Disabling hotspot</string>
     <string name="reflection_error">Error, the API got changed :( %s</string>
+    <string name="wifi_disconnect_error">Error disconnecting from Wifi :(</string>
 
 </resources>

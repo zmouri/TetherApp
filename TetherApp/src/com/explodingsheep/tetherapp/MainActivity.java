@@ -34,6 +34,11 @@ public class MainActivity extends Activity {
         mPasswordTextView = (TextView) findViewById(R.id.setup_ssid_password);
 
         initializeAuthType();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
         initializeFields();
     }
 
